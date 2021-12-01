@@ -5,7 +5,7 @@
 }
 
 .status-bar__column {
-  width: 33%;
+  width: 33%; /* column 3개가 너비의 1/3씩 공간을 할당 받음. 각  column의 text는 외쪽으로 정렬된 상태. */
 }
 
 .status-bar__column:first-child span {

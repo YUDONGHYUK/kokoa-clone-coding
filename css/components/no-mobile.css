@@ -1,0 +1,19 @@
+#no-mobile {
+  position: absolute;
+  /* index를 높게해서 splash나 Friens 스킬인이 더 이상 위로 올라오지 않게 */
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+@media screen and (max-width: 500px) {
+  #no-mobile {
+    display: none;
+  }
+}
